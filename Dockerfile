@@ -1,7 +1,7 @@
 # Stage 1 build the React app for production
 FROM node:latest as node 
 WORKDIR /app
-COPY . app
+COPY . .
 RUN npm install 
 RUN npm run build    
 
